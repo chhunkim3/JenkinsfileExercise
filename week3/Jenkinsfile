@@ -3,9 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                //Original line from the lab
-		//sh 'uname -a'
-		echo "this is the main branch."
+		echo "this is the testing branch."
             }
         }
     }
